@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.navbar{
+    margin: 0;
+    background-color: #CE0505;
+    position: relative;
+    height: 60px ;
+}
+.logo{
+    position: absolute;
+    left: 113px;
+    display: flex;
+    width: 37px;
+height: 42px;
+    background-color: white;
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 600 33px/50px Poppins;
+   letter-spacing: 0px;
+   padding: 10px;
+}
+.login{
+    position: absolute;
+    right:250px;
+    text-decoration: none;
+    text-align: left;
+font: normal normal medium 16px/25px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
+.btn{
+    position: absolute;
+    right: 80px;
+    text-align: left;
+font: normal normal medium 16px/25px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+border: 1px solid white;
+}
+.head{
+    position: absolute;
+    top: 97px;
+    left: 113px;
+    
+    text-align: left;
+font: normal normal bold 36px/45px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+width: 814px;
+height: 51px;
+
+}
+.parent{
+    position: absolute;
+    display: flex;
+    flex-direction:row ;
+    top: 195px;
+    left: 113px;
+}
+.left-panel{
+    
+    width: 260px;
+    height: 682px;
+    margin-right: 45px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.card{
+    width: 794px;
+    height: 291px;
+    margin-right: 45px;
+    margin-bottom: 35px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+.left-panel h4{
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    text-align: left;
+font: normal normal 600 18px/27px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.left-panel h5{
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+
+    text-align: left;
+font: normal normal normal 14px/21px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+
+.select{
+    width: 208px;
+    height: 35px;
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font: normal normal normal 14px/21px Poppins;
+}
+.cuisine{
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font: normal normal normal 14px/21px Poppins;
+}
+.cost{
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font: normal normal normal 14px/21px Poppins;
+}
+.sort{
+    margin-left: 27px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font: normal normal normal 14px/21px Poppins;
+}
+
+img{ 
+
+    height: 120px;
+    width: 120px;
+    border-radius: 10%;
+    margin: 20px;
+}
+.card{
+    position: relative;
+
+}
+.name{
+    position: absolute;
+    top: 20px;
+    left: 160px;
+    text-align: left;
+font: normal normal 600 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.location{
+    position: absolute;
+    top: 60px;
+    left: 160px;
+    text-align: left;
+font: normal normal medium 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.address{
+    position: absolute;
+    top: 80px;
+    left: 160px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+}
+.line{
+    position: absolute;
+    border: 2px solid #636F88;
+    width: 694px;
+    height: 0px;
+    left: 40px;
+    top: 170px ;
+}
+.info{
+    
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.container h5{
+    text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #636F88;
+opacity: 1;
+}
+.container span{
+    text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
